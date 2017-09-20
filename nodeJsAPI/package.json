@@ -1,0 +1,29 @@
+{
+  "name": "ccp-authentication",
+  "version": "1.0.0",
+  "description": "Generic User Authentication",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/iAdvise/ccp-authentication.git"
+  },
+  "author": "jstack",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/iAdvise/ccp-authentication#readme",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6",
+    "mongoose-schema-extend": "^0.2.2",
+    "node-uuid": "^1.4.8",
+    "ramda": "^0.24.1",
+    "winston": "^2.3.1"
+  }
+}
